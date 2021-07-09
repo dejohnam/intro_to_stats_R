@@ -36,6 +36,6 @@ All data (including dictionaries) for use in tutorials 2, 3, 4. One version (Mus
 #### TwoTowns
 A fictional dataset I created for use in tutorial 5. Dictionary included. 
 
-### Toronto_travel 
+#### Toronto_travel 
 Data collected by the Transportation Tomorrow survey, which Jeff Allen cleaned and I cut down immensely for use in tutorials. Thanks to Jeff for sharing his data! I also include two shapefiles for mapping and analysis purposes. **toronto_da_centroids.zip** is a point file while **toronto_da_XY.zip** is a polygon file. These files are quite large so I suggest finding another dataset for use in these tutorials (7,8,9). 
 
