@@ -1,6 +1,7 @@
-# intro_to_stats_R
+# Introduction to (some spatial) statistics in R! 
 A series of tutorials for R (data included). Starts with an introduction to R and works all the way to spatial regressions. Below is a list of the files I include here, what the learning goals are, and how to access any required data to run the lab. Data sources are credited within the code. 
 
+## What you'll find in the tutorial folder: 
 #### Tutorial_1_code.R
 This introductory tutorial includes the basics of R and is meant to get novice students acuqainted with coding in R Studio. They'll do simple math, assign variables, and play around with different data strucutres. No data are needed for this lab. 
 
@@ -27,4 +28,14 @@ Tutorial 8 continues the regression analysis that we started in tutorial 7 and c
 
 #### Tutorial_9_code.R
 This tutorial covers spatial regression and model selection. It continues to use the Toronto DA travel data. Please note we had some issues with the mapping code for some students, so I'd be sure to check all the mapping code for this week to ensure it works properly. 
+
+## What you'll find in the data folder: 
+#### GroundhogDay
+All data (including dictionaries) for use in tutorials 2, 3, 4. One version (MustUpdate) includes intentionally messed up variable names we had students edit in excel. 
+
+#### TwoTowns
+A fictional dataset I created for use in tutorial 5. Dictionary included. 
+
+### Toronto_travel 
+Data collected by the Transportation Tomorrow survey, which Jeff Allen cleaned and I cut down immensely for use in tutorials. Thanks to Jeff for sharing his data! I also include two shapefiles for mapping and analysis purposes. **toronto_da_centroids.zip** is a point file while **toronto_da_XY.zip** is a polygon file. These files are quite large so I suggest finding another dataset for use in these tutorials (7,8,9). 
 
