@@ -1,0 +1,30 @@
+
+Call:lagsarlm(formula = person_N_trips ~ Emp_notemp + hhld_vehicles + 
+    person_age + drivelic_NO, data = df, listw = df_k2_wb, tol.solve = 1e-20)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-2.049051 -0.382457 -0.025737  0.335119  7.766079 
+
+Type: lag 
+Coefficients: (asymptotic standard errors) 
+                 Estimate  Std. Error  z value  Pr(>|z|)
+(Intercept)    2.74024138  0.08208520  33.3829 < 2.2e-16
+Emp_notemp    -0.00040085  0.00011481  -3.4915 0.0004804
+hhld_vehicles  0.06759645  0.01834644   3.6844 0.0002292
+person_age    -0.01659332  0.00141773 -11.7041 < 2.2e-16
+drivelic_NO   -0.00026794  0.00008496  -3.1538 0.0016118
+
+Rho: 0.11243, LR test value: 44.304, p-value: 2.812e-11
+Asymptotic standard error: 0.017059
+    z-value: 6.5904, p-value: 4.3876e-11
+Wald statistic: 43.433, p-value: 4.3876e-11
+
+Log likelihood: -3465.291 for lag model
+ML residual variance (sigma squared): 0.39099, (sigma: 0.62529)
+Number of observations: 3641 
+Number of parameters estimated: 7 
+AIC: 6944.6, (AIC for lm: 6986.9)
+LM test for residual autocorrelation
+test value: 4.21, p-value: 0.040186
+

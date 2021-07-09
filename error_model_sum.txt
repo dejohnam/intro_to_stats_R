@@ -1,0 +1,28 @@
+
+Call:errorsarlm(formula = person_N_trips ~ Emp_notemp + hhld_vehicles + 
+    person_age + drivelic_NO, data = df, listw = df_k2_wb, tol.solve = 1e-20)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-2.008937 -0.382943 -0.027057  0.335175  7.765878 
+
+Type: error 
+Coefficients: (asymptotic standard errors) 
+                 Estimate  Std. Error  z value  Pr(>|z|)
+(Intercept)    2.9916e+00  7.3678e-02  40.6033 < 2.2e-16
+Emp_notemp    -3.9677e-04  1.1579e-04  -3.4265 0.0006115
+hhld_vehicles  7.1849e-02  1.9110e-02   3.7598 0.0001700
+person_age    -1.6737e-02  1.4269e-03 -11.7291 < 2.2e-16
+drivelic_NO   -2.6735e-04  8.5807e-05  -3.1157 0.0018352
+
+Lambda: 0.11248, LR test value: 42.198, p-value: 8.2473e-11
+Asymptotic standard error: 0.017396
+    z-value: 6.4657, p-value: 1.0085e-10
+Wald statistic: 41.805, p-value: 1.0085e-10
+
+Log likelihood: -3466.344 for error model
+ML residual variance (sigma squared): 0.39122, (sigma: 0.62547)
+Number of observations: 3641 
+Number of parameters estimated: 7 
+AIC: 6946.7, (AIC for lm: 6986.9)
+
