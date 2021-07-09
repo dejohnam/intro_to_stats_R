@@ -1,0 +1,13 @@
+dauid,Dissemination Area,
+Emp_fulltime,Count of population by employment status,Full time outside of home
+Emp_notemp,Count of population by employment status,Not employed
+stu_notstudent,Count of population by student class,Not a student
+stu_fulltime,Count of population by student class,Full time student
+person_n,Number of people (expanded),
+hhld_size,Average household size,
+hhld_vehicles,Average number of vehicles per household,
+person_age,Average age,
+drivelic_NO,Count of population by driver’s license status,No license
+drivelic_YES,Count of population by driver’s license status,Yes has a license
+TPass_No,Count of population by transit pass status,No pass
+person_N_trips,Average number of trips per person per day,
