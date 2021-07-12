@@ -11,7 +11,7 @@ Tutorial 2 uses the Groundhog Day temperatures dataset. The code filters the dat
 #### Tutorial_3_code.R
 Tutorial 3 also uses the Groundhog Day temperatures dataset. This time, students will be guided through measuring skewness, z-scores, and working with probabilities. Note that the script shows students how to break down formulas instead of using R functions (e.g., skewnewss()). 
 
-#### Tutorial_4_code2.R
+#### Tutorial_4_code.R
 This tutorial guides students through simple hypothesis testing. Students are also provided a CSV with messy variable names to clean. I've included the messy variables in the Groundhog Day file (MustUpdate), as well as the cleaned file that will work in the code (v2). More information on where you can find the data is below. 
 
 #### Tutorial_5_code.R
