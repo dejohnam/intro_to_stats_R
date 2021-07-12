@@ -3,10 +3,10 @@ A series of tutorials for R (data included). Starts with an introduction to R an
 
 ## What you'll find in the tutorial folder: 
 #### Tutorial_1_code.R
-This introductory tutorial includes the basics of R and is meant to get novice students acuqainted with coding in R Studio. They'll do simple math, assign variables, and play around with different data strucutres. No data are needed for this lab. 
+This introductory tutorial includes the basics of R and is meant to get novice students acquainted with coding in R Studio. They'll do simple math, assign variables, and play around with different data structures. No data are needed for this lab. 
 
 #### Tutorial_2_code.R
-Tutorial 2 uses the Groundhog Day temperatures dataset. The code filters the dataset, creates new variables, and explores central tendancy via boxplots, quantiles, etc. NOTE: we used the ggplot package for histograms and this was too difficult for students. I suggest using the base hist() function instead. 
+Tutorial 2 uses the Groundhog Day temperatures dataset. The code filters the dataset, creates new variables, and explores central tendency via boxplots, quantiles, etc. NOTE: we used the ggplot package for histograms and this was too difficult for students. I suggest using the base hist() function instead. 
 
 #### Tutorial_3_code.R
 Tutorial 3 also uses the Groundhog Day temperatures dataset. This time, students will be guided through measuring skewness, z-scores, and working with probabilities. Note that the script shows students how to break down formulas instead of using R functions (e.g., skewnewss()). 
@@ -15,7 +15,7 @@ Tutorial 3 also uses the Groundhog Day temperatures dataset. This time, students
 This tutorial guides students through simple hypothesis testing. Students are also provided a CSV with messy variable names to clean. I've included the messy variables in the Groundhog Day file (MustUpdate), as well as the cleaned file that will work in the code (v2). More information on where you can find the data is below. 
 
 #### Tutorial_5_code.R
-Tutorial 5 uses a fictional dataset about two towns (metropolis and townsville). Students are guided through various hypothesis tests including t-tests (paired, unpaired, wilcoxon) and a different of proportion test. 
+Tutorial 5 uses a fictional dataset about two towns (metropolis and townsville). Students are guided through various hypothesis tests including t-tests (paired, unpaired, wilcoxon) and a difference of proportion test. 
 
 #### Tutorial_6_code.R
 This tutorial uses datasets provided by R and reviewed hypothesis testing from tutorial 4. ANOVA was NOT included but I think this would a good place to introduce if you plan to cover that concept. 
